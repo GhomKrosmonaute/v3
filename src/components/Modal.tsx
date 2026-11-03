@@ -28,7 +28,7 @@ export const Modal = (
         variant="opaque"
         className="md:mdh:hidden fixed m-4 right-0 bottom-0 z-50"
         onClick={() => {
-          window.location.pathname = "/"
+          window.location.pathname = import.meta.env.BASE_URL
         }}
       >
         {/*<img src={cross} alt="back" />*/}

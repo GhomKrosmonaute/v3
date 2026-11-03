@@ -7,7 +7,7 @@ import svg from "./dev/vite/plugins/svg.ts";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [svg(), react(), visualizer()],
-  base: "/",
+  base: "/v3/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

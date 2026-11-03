@@ -88,7 +88,7 @@ export default function App() {
           path: "/pricing",
           element: <Tarifs />,
         },
-      ]),
+      ], { basename: import.meta.env.BASE_URL }),
     [],
   )
 

@@ -145,7 +145,7 @@ export const TiltFoil: React.FC = () => {
       <div
         className={cn(
           "absolute w-full h-full rounded-xl transition-opacity duration-500 ease-out",
-          "bg-[url('/images/texture-black.png')] dark:bg-[url('/images/texture-white.png')]",
+          "bg-[url('/v3/images/texture-black.png')] dark:bg-[url('/v3/images/texture-white.png')]",
         )}
         style={{
           opacity: tiltContext.isHovered ? "15%" : "10%",
